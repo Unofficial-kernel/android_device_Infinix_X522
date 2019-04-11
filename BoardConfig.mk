@@ -2,9 +2,6 @@
 -include vendor/Infinix/X522/BoardConfigVendor.mk
 
 
-# Hack for build
-$(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
-
 # Build with NINJA
 USE_NINJA := true
 
